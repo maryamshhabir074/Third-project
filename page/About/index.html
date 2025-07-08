@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap css -->
+     <link rel="stylesheet" href="../../bootstrap link/css/bootstrap.min.css">
+     <!-- fomt-awesome link -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+     <!-- stylecss -->
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg shadow-lg bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="../../assests/images.png" alt=""  style="height: 60px;">
+          </a>
+            <!-- Toggler for mobile -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <!-- Navbar content -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="  navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center gap-3">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recommendations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Course</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">For You</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Learning path</a>
+              </li>
+            </ul>
+            <div class="d-flex align-items-center gap-2 ms-3">
+                <button type="button" class="btn btn-outline-warning">Manage Courses</button>
+                <button type="button" class="btn btn-warning">Add Courses</button>
+                <button class="btn btn-outline-secondary d-flex align-items-center justify-content-center p-2" style="color: black; border-color: #ccc;">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+            </div>
+            
+           </div>
+        </div>
+    </nav>
+
+    <!-- body -->
+     <section>
+        <div class="container">
+            <div class="body-heading">
+                <ul class="body-heading m-5  fs-5" style="list-style-type: none; padding-left: 0;">
+                    <li class="body-item"><a href="#">Recommended Courses &gt;
+                     <span class="fw-bold ">Recommended Courses Detail</span> </a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <h4>Course Name</h4>
+                </div>
+                <div class="col-lg-8">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>PPC Advertising Mastery</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                </div>
+                <div class="col-lg-2"><button type="button" class="btn btn-warning">Warning</button></div>
+            </div>
+        </div>
+     </section>
+
+     <section class="m-3">
+        <div class="container">
+                
+                <div class="row border p-3" style="background-color: darkcyan;">
+                    <div class="col">
+                      UserName
+                    </div>
+                    <div class="col">
+                      Assigned
+                    </div>
+                    <div class="col">
+                      Status
+                    </div>
+                    <div class="col">
+                        Activity
+                    </div>
+                </div>
+                <div class="row border p-3" >
+                    <div class="col">
+                      James Butler
+                    </div>
+                    <div class="col">
+                      Apr 17,2023
+                    </div>
+                    <div class="col"  style="color: orange;">
+                      50% Completed
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-trash fs-4" style="color: red;" ></i>
+                    </div>
+                </div>
+                <div class="row border p-3" >
+                    <div class="col">
+                      Kurt Bates
+                    </div>
+                    <div class="col">
+                      Sep 20,2023
+                    </div>
+                    <div class="col"  style="color: green;">
+                      InQueue
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-trash fs-4" style="color: red;" ></i>
+                    </div>
+                </div>
+                <div class="row border p-3" >
+                    <div class="col">
+                      Jordan Peterson
+                    </div>
+                    <div class="col">
+                        Sep 9,2023
+                    </div>
+                    <div class="col"  style="color: orange;">
+                        75% Completed
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-trash fs-4" style="color: red;" ></i>
+                    </div>
+                </div>
+                <div class="row border p-3" >
+                    <div class="col">
+                      Corina McCoy
+                    </div>
+                    <div class="col">
+                      Aug 1,2023
+                    </div>
+                    <div class="col"  style="color: orange;">
+                        70% Completed
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-trash fs-4" style="color: red;" ></i>
+                    </div>
+                </div>
+                <div class="row border p-3" >
+                    <div class="col">
+                      Patricia Sanders
+                    </div>
+                    <div class="col">
+                      May 31,2023
+                    </div>
+                    <div class="col"  style="color: orange;">
+                        40% Completed
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-trash fs-4 " style="color: red;" ></i>
+                    </div>
+                </div>
+                <div class="row border p-3" >
+                    <div class="col">
+                      Katie Sims
+                    </div>
+                    <div class="col">
+                      Aug 19,2023
+                    </div>
+                    <div class="col"  style="color: red;">
+                      Not Started Yet 
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-trash fs-4" style="color: red;" ></i>
+                    </div>
+                </div>
+                <div class="row border p-3" >
+                    <div class="col">
+                      Eddie Lake
+                    </div>
+                    <div class="col">
+                      Apr 17,2023
+                    </div>
+                    <div class="col"  style="color: green;">
+                      InQueue
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-trash fs-4" style="color: red;" ></i>
+                    </div>
+                </div>
+                <div class="row border p-3" >
+                    <div class="col">
+                      Judith Rodriguez
+                    </div>
+                    <div class="col">
+                      Sep 19,2023
+                    </div>
+                    <div class="col"  style="color: green;">
+                      InQueue
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-trash fs-4 " style="color: red;" ></i>
+                    </div>
+                </div>
+                <div class="row border p-3" >
+                    <div class="col">
+                      Kurt  Bates
+                    </div>
+                    <div class="col">
+                      May 3,2023
+                    </div>
+                    <div class="col"  style="color: green;">
+                        InQueue
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-trash fs-4" style="color: red;" ></i>
+                    </div>
+                </div>
+                <div class="row border p-3" >
+                    <div class="col">
+                      Daniel Hamiton
+                    </div>
+                    <div class="col">
+                      Jun 5,2023
+                    </div>
+                    <div class="col"  style="color: green;">
+                        InQueue
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-trash fs-4" style="color: red;" ></i>
+                    </div>
+                </div>
+                <div class="row border p-3" >
+                    <div class="col">
+                      Jerry Helfer
+                    </div>
+                    <div class="col">
+                      Jul 6,2023
+                    </div>
+                    <div class="col"  style="color: green;">
+                      InQueue
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-trash fs-4 " style="color: red;" ></i>
+                    </div>
+                </div>
+                <div class="row border p-3" >
+                    <div class="col">
+                      Paula Mora
+                    </div>
+                    <div class="col">
+                      Jun 2,2023
+                    </div>
+                    <div class="col"  style="color: red;">
+                      Not Started Yet
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-trash fs-4" style="color: red;" ></i>
+                    </div>
+                </div>
+
+        </div>
+     </section>
+
+      <!-- footer -->
+    <footer class="bg-light text-dark pt-5 pb-3">
+        <div class="container">
+          <div class="row">
+      
+            <!-- Logo and Description -->
+            <div class="col-lg-3 col-md-6 mb-4">
+              <img src="../../assests/images.png" alt="Emformance Logo" style="height:60px;">
+              <p class="mt-3 small">
+                Korxan Solutions is a 360 IT, Software Development and Cybersecurity company with a mission to boost productivity, efficiency and revenue for our client’s businesses.
+              </p>
+            </div>
+      
+            <!-- Quick Links -->
+            <div class="col-lg-3 col-md-6 mb-4">
+              <h6>Quick Links</h6>
+              <ul class="list-unstyled mt-3">
+                <li><a href="#" class="text-dark text-decoration-none">Home</a></li>
+                <li><a href="#" class="text-dark text-decoration-none">About</a></li>
+                <li><a href="#" class="text-dark text-decoration-none">Blog</a></li>
+                <li><a href="#" class="text-dark text-decoration-none">Contact</a></li>
+                <li><a href="#" class="text-dark text-decoration-none">Privacy Policy</a></li>
+              </ul>
+            </div>
+      
+            <!-- Social Media -->
+            <div class="col-lg-3 col-md-6 mb-4">
+              <h6>Follow Us</h6>
+              <ul class="list-unstyled mt-3">
+                <li><a href="#" class="text-dark text-decoration-none">Facebook</a></li>
+                <li><a href="#" class="text-dark text-decoration-none">LinkedIn</a></li>
+                <li><a href="#" class="text-dark text-decoration-none">Twitter</a></li>
+                <li><a href="#" class="text-dark text-decoration-none">Instagram</a></li>
+              </ul>
+            </div>
+    
+            <!-- Contact Info -->
+            <div class="col-lg-3 col-md-6 mb-4">
+              <h6>Contact Us</h6>
+              <p class="small mb-1">50 Sullivan Street, Suite C,<br>Warrenton VA, 20186</p>
+              <p class="small mb-1">7038708770</p>
+              <p class="small mb-1">
+                <a href="mailto:info@emformance.com" class="text-dark text-decoration-none">info@emformance.com</a>
+              </p>
+              <p class="small">
+                <a href="mailto:support@emformance.com" class="text-dark text-decoration-none">support@emformance.com</a>
+              </p>
+            </div>
+      
+          </div>
+      
+          <!-- Copyright -->
+          <div class="text-center pt-3 border-top mt-4">
+            <small>© 2022 <span class="text-warning">Emformance</span>. All rights reserved</small>
+          </div>
+        </div>
+      </footer>
+
+    <script src="../../bootstrap link/js/bootstrap.min.js"></script>
+</body>
+</html>

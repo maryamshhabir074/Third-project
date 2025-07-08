@@ -1,0 +1,24 @@
+body{
+  margin: 0%;
+  padding: 0%;
+}
+.body-heading .body-item a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.body-heading .body-item a {
+    text-decoration: none;
+    color: grey; /* First 3 links grey */
+    /* list-style: none;*/
+    list-style-type: none; 
+  }
+.assign-btn {
+    background-color: #f58220;
+    color: white;
+    border: none;
+    width: 100%;
+}
+.assign-btn:hover {
+    background-color: #e67310;
+}
